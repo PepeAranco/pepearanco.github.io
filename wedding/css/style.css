@@ -1,13 +1,31 @@
 * {margin:0;padding:0;box-sizing:border-box;}
 body {
-  background: white;
-  color:;
-  font-family: helvetica;
+  color:#666;
+  font-family: helvetica, sans-serif;
   font-size:16px;
 }
 header { 
 	padding: 20px;
 }
+section { }
+section#splash { }
+section#history {
+	margin:0 auto;
+	width:50%;
+}
+#storyimg{
+	float: left;
+	width:50%;
+	margin:0 1em;
+	
+}
+#ourstory{
+
+}
+section#wedding { }
+section#rsvp { }
+section#gifts { }
+section#gallery { }
 
 img{
 	display: block;
@@ -43,30 +61,12 @@ a:hover{
 	background-color: #C7CEC0;
 }
 
-section { }
-section#splash { }
-section#history { }
-#storyimg{
-	float: left;
-	margin-left: 150px;
-}
-#ourstory{
-	float: left;
-	margin: 50px 150px 0px 50px;
-
-}
-section#wedding { }
-section#rsvp { }
-section#gifts { }
-section#gallery { }
-
-
 /*********************
     Hamburger Menu
 **********************/
 
 .mobile-nav {
-	display:none;
+	display:none;  /*change to display:block; in your media queries*/
 }
 .menu-btn {
 	background:#03A9F4;
