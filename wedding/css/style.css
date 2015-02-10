@@ -1,13 +1,47 @@
 * {margin:0;padding:0;box-sizing:border-box;}
 body {
-  background:;
+  background: white;
   color:;
-  font-family:;
+  font-family: helvetica;
   font-size:16px;
 }
-header { }
-nav { }
-nav a { }
+header { 
+	padding: 20px;
+}
+
+img{
+	display: block;
+	margin: 0 auto;
+	padding: 10px 0 10px 0;
+}
+
+#homeimg {
+	width: 800px;
+}
+
+p{
+	text-align: center;
+	font-size: 18px
+}
+
+nav {
+	font-size: 18px;
+	padding: 18px 0 5px 0;
+	margin: 30px;
+	text-align: center;
+}
+nav a { 
+	margin: 20px;
+	color: #6953A3;
+	text-decoration: none;
+	display: inline-block;
+	width: 150px;
+	padding: 20px;
+}
+
+a:hover{
+	background-color: #C7CEC0;
+}
 
 section { }
 section#splash { }
