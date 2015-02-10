@@ -46,6 +46,15 @@ a:hover{
 section { }
 section#splash { }
 section#history { }
+#storyimg{
+	float: left;
+	margin-left: 150px;
+}
+#ourstory{
+	float: left;
+	margin: 50px 150px 0px 50px;
+
+}
 section#wedding { }
 section#rsvp { }
 section#gifts { }
